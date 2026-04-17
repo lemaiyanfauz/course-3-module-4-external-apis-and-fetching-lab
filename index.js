@@ -23,7 +23,7 @@ function isValidState(code) {
 
 async function fetchAlerts(state) {
   const response = await fetch(
-    https://api.weather.gov/alerts/active?area=${state}
+    `https://api.weather.gov/alerts/active?area=${state}`
   );
 
   if (!response.ok) {
