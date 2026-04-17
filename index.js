@@ -38,7 +38,7 @@ function renderAlerts(data) {
 
 
   const summary = document.createElement("h2");
-  summary.textContent = Weather Alerts: ${alerts.length};
+  summary.textContent = `Weather Alerts: ${alerts.length}`;
   display.appendChild(summary);
 
   const ul = document.createElement("ul");
